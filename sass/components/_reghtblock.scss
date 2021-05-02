@@ -1,0 +1,181 @@
+.right_block {
+  background-color: map-get($colors, 'paper');
+}
+
+.quote {
+  position: relative;
+  margin: 30px 30px;
+
+  display: flex;
+  flex-direction: column;
+
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    .title {
+      font-size: 30px;
+    }
+    .line {
+      margin-left: 10px;
+      display: flex;
+      max-width: 440px;
+      width: 100%;
+
+      border: 2.5px dashed black;
+    }
+  }
+  .text {
+    font-size: 25px;
+    font-style: italic;
+  }
+}
+
+.formations {
+  margin-bottom: 30px;
+  margin-left: 30px;
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    .title {
+      font-size: 30px;
+    }
+    .line {
+      margin-left: 10px;
+      display: flex;
+      max-width: 440px;
+      width: 100%;
+
+      border: 2.5px dashed black;
+    }
+  }
+  .list {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .item {
+    display: flex;
+    align-items: end;
+    margin-bottom: 20px;
+    .div-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 35px;
+      height: 35px;
+      background-color: map-get($colors, 'main');
+      border-radius: 50%;
+    }
+    .icon {
+      fill: map-get($colors, 'hairs');
+    }
+  }
+  .block-descr {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    .title-descr {
+      color: map-get($colors, 'main');
+      margin-bottom: 8px;
+    }
+    .where {
+      color: map-get($colors, 'main');
+      margin-bottom: 3px;
+    }
+    .descr {
+      font-size: 20px;
+    }
+  }
+}
+
+.buttom {
+  border-top: 5px dashed map-get($colors, 'black');
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+
+  .languages {
+    padding-left: 30px;
+    margin-right: 70px;
+  }
+}
+.languages {
+  .title {
+    display: flex;
+    justify-content: center;
+  }
+  .item {
+    width: 100%;
+
+    height: 90px;
+
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .img {
+    border: 5px solid map-get($colors, 'main');
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    max-width: 160px;
+  }
+}
+.contact {
+  .title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .list {
+    .item {
+      display: flex;
+      align-items: center;
+    }
+    .item:not(:last-child) {
+      margin-bottom: 15px;
+    }
+    .div-icon {
+      cursor: pointer;
+      margin-right: 20px;
+    }
+    .icon {
+      fill: map-get($colors, 'main');
+    }
+    .link {
+      color: black;
+    }
+    .link-box {
+      padding: 5px 15px;
+      border: 4px solid map-get($colors, main);
+      border-radius: 25px;
+    }
+  }
+  .item:hover {
+    .icon {
+      fill: map-get($colors, 'hair');
+    }
+    .link {
+      color: map-get($colors, 'school');
+      text-decoration: underline;
+    }
+    .link-box {
+      border: 4px dashed map-get($colors, main);
+    }
+  }
+}
+
+// 'main': #dcc1b6,
+// 'school': #4e0e0e,
+// 'form': #332e34,
+// 'hair': #904132,
+// 'black': black,
+// 'white': white,
+// 'gray': gray,

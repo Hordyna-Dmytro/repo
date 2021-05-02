@@ -1,0 +1,74 @@
+$colors: (
+  'main': #dcc1b6,
+  'school': #4e0e0e,
+  'form': #332e34,
+  'hair': #904132,
+  'black': black,
+  'white': white,
+  'gray': gray,
+  'paper': #e2e1e4,
+);
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: map-get($colors, 'main');
+  font-family: 'Merriweather', serif;
+}
+ul {
+  list-style: none;
+}
+ol {
+  list-style: none;
+}
+button {
+  font-family: inherit;
+}
+textarea {
+  resize: none;
+}
+img {
+  max-width: 100%;
+}
+svg {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
+.title {
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+.list {
+  margin: 0;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+.text {
+  margin: 0;
+  padding: 0;
+}
