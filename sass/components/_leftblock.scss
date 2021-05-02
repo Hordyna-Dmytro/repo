@@ -1,10 +1,13 @@
-.main {
-  padding: 150px 200px;
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
 }
 .article_cv {
   display: flex;
-
-  padding: 10px;
+  margin-top: 140px;
+  padding: 15px;
+  margin-bottom: 70px;
 
   background-color: map-get($colors, 'paper');
   -webkit-box-shadow: 6px 5px 15px 0px rgba(0, 0, 0, 0.78);
@@ -17,7 +20,7 @@
 
   border-right: 5px dashed map-get($colors, 'black');
 }
-// section about
+
 .img_box {
   display: flex;
   justify-content: center;

@@ -1,0 +1,48 @@
+.header {
+  .prewiev {
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 0 auto;
+  }
+  .img {
+    width: 400px;
+    height: 400px;
+  }
+  .title {
+    color: map-get($colors, 'school');
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 1.4;
+    letter-spacing: 0.05em;
+    .span {
+      color: whitesmoke;
+    }
+
+    // background-image: url('../../img/—Pngtree—the\ dividing\ line\ between\ the_3772576.png');
+    // background-repeat: no-repeat;
+    // background-position: 0px 20px;
+    // background-size: 500%;
+
+    // background-size: contain;
+  }
+  .text {
+    color: map-get($colors, 'form');
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    .tex-span {
+      font-weight: 400;
+      color: map-get($colors, 'hair');
+    }
+  }
+
+  background-image: url('../../img/—Pngtree—the\ dividing\ line\ between\ the_3772576.png');
+  background-repeat: no-repeat;
+  background-position: -10px 230px;
+
+  background-size: contain;
+}
