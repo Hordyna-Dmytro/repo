@@ -1041,13 +1041,6 @@ p {
   margin: 0 -18px 0 0;
 }
 
-.header {
-  background-image: url("../../img/—Pngtree—the dividing line between the_3772576.png");
-  background-repeat: no-repeat;
-  background-position: -10px 230px;
-  background-size: contain;
-}
-
 .header .prewiev {
   margin-top: 130px;
   display: -webkit-box;
@@ -1064,6 +1057,11 @@ p {
       -ms-flex-align: center;
           align-items: center;
   width: 0 auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("../../img/—Pngtree—the dividing line between the_3772576.png"), url("../../img/—Pngtree—the dividing line between the_3772576.png");
+  background-size: 390px, 390px;
+  background-position: top 250px right -90px, top 305px left -20px;
 }
 
 .header .img {
